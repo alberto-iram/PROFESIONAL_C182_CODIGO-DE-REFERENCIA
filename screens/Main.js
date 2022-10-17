@@ -54,7 +54,7 @@ export default class Main extends React.Component {
         if (hasCameraPermission === false) {
             return (
                 <View style={styles.container}>
-                    <Text>No access to camera</Text>
+                    <Text>Sin acceso a la cámara</Text>
                 </View>
             )
         }
